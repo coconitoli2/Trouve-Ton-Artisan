@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('/assets/fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    font-family: 'Graphik', sans-serif;
+}
+
+.TheArea {
+    background-image: url('/Fabrication.png');
+    background-size: cover;
+    repeat: no-repeat;
+    height: 400px;
+}
+
+.TextP {
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #00497C;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+}
+
+.Artisan {
+    background-color: #f0f0f0;
+}
+
+.ImageArtisan1,
+.ImageArtisan2,
+.ImageArtisan3,
+.ImageArtisan4,
+.ImageArtisan5,
+.ImageArtisan6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+
+.Nom1,
+.Nom2,
+.Nom3,
+.Nom4,
+.Nom5,
+.Nom6 {
+    color: #00497C;
+}
+
+.Prenom1,
+.Prenom2,
+.Prenom3,
+.Prenom4,
+.Prenom5,
+.Prenom6 {
+    color: #00497C;
+}
+
+.Entreprise1,
+.Entreprise2,
+.Entreprise3,
+.Entreprise4,
+.Entreprise5,
+.Entreprise6 {
+    color: #00497C;
+}
+
+.Description1,
+.Description2,
+.Description3,
+.Description4,
+.Description5,
+.Description6 {
+    color: #00497C;
+}
+
+.Site1,
+.Site2,
+.Site3,
+.Site4,
+.Site5,
+.Site6 {
+    color: #00497C;
+}
+
+.Specialite1,
+.Specialite2,
+.Specialite3,
+.Specialite4,
+.Specialite5,
+.Specialite6 {
+    color: #00497C;
+}

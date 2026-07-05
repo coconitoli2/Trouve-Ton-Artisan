@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('/assets/fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    font-family: 'Graphik', sans-serif;
+    background-color: #0074C7;
+    padding: 20px;
+}
+
+footer h1 {
+    color: #F1F8FC;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #F1F8FC;
+    font-size: 16px;
+    line-height: 1.5;
+}

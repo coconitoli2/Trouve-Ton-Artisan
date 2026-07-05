@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('/assets/fonts/Graphik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    font-family: 'Graphik', sans-serif;
+}
+
+.ImageArtisan2 {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

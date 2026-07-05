@@ -1,0 +1,74 @@
+import { Routes } from '@angular/router';
+import { Home } from './pages/home/home';
+import { MentionsLegales } from './pages/mentions-legales/mentions-legales';
+import { DonneesPersonnelles } from './pages/donnees-personnelles/donnees-personnelles';
+import { Accessibilite } from './pages/accessibilite/accessibilite';
+import { Cookies } from './pages/cookies/cookies';
+import { Services } from './pages/services/services';
+import { Batiment } from './pages/batiment/batiment';
+import { Fabrication } from './pages/fabrication/fabrication';
+import { Alimentation } from './pages/alimentation/alimentation';
+import { PageNotFound } from './pages/page-not-found/page-not-found';
+import { ArtisanAbt1 } from './pages/artisan-abt1/artisan-abt1';
+import { ArtisanAbt2 } from './pages/artisan-abt2/artisan-abt2';
+import { ArtisanAbt3 } from './pages/artisan-abt3/artisan-abt3';
+import { ArtisanAbt4 } from './pages/artisan-abt4/artisan-abt4';
+import { ArtisanAbt5 } from './pages/artisan-abt5/artisan-abt5';
+import { ArtisanAbt6 } from './pages/artisan-abt6/artisan-abt6';
+import { ArtisanAbt7 } from './pages/artisan-abt7/artisan-abt7';
+import { ArtisanAbt8 } from './pages/artisan-abt8/artisan-abt8';
+import { ArtisanAbt9 } from './pages/artisan-abt9/artisan-abt9';
+import { ArtisanAbt10 } from './pages/artisan-abt10/artisan-abt10';
+import { ArtisanAbt11 } from './pages/artisan-abt11/artisan-abt11';
+import { ArtisanAbt12 } from './pages/artisan-abt12/artisan-abt12';
+import { ArtisanAbt13 } from './pages/artisan-abt13/artisan-abt13';
+import { ArtisanAbt14 } from './pages/artisan-abt14/artisan-abt14';
+import { ArtisanAbt15 } from './pages/artisan-abt15/artisan-abt15';
+import { ArtisanAbt16 } from './pages/artisan-abt16/artisan-abt16';
+import { ArtisanAbt17 } from './pages/artisan-abt17/artisan-abt17';
+import { ArtisanAbt18 } from './pages/artisan-abt18/artisan-abt18';
+import { ArtisanAbt19 } from './pages/artisan-abt19/artisan-abt19';
+import { ArtisanAbt20 } from './pages/artisan-abt20/artisan-abt20';
+import { ArtisanAbt21 } from './pages/artisan-abt21/artisan-abt21';
+import { ArtisanAbt22 } from './pages/artisan-abt22/artisan-abt22';
+import { ArtisanAbt23 } from './pages/artisan-abt23/artisan-abt23';
+import { ArtisanAbt24 } from './pages/artisan-abt24/artisan-abt24';
+export const routes: Routes = [
+    { path: 'mentions-legales', component: MentionsLegales },
+    { path: 'donnees-personnelles', component: DonneesPersonnelles },
+    { path: 'accessibilite', component: Accessibilite },
+    { path: 'cookies', component: Cookies },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home', component: Home },
+    { path: 'not-found', component: PageNotFound },
+    { path: 'services', component: Services },
+    { path: 'batiment', component: Batiment },
+    { path: 'fabrication', component: Fabrication },
+    { path: 'alimentation', component: Alimentation },
+    { path: 'artisan-abt1', component: ArtisanAbt1 },
+    { path: 'artisan-abt2', component: ArtisanAbt2 },
+    { path: 'artisan-abt3', component: ArtisanAbt3 },
+    { path: 'artisan-abt4', component: ArtisanAbt4 },
+    { path: 'artisan-abt5', component: ArtisanAbt5 },
+    { path: 'artisan-abt6', component: ArtisanAbt6 },
+    { path: 'artisan-abt7', component: ArtisanAbt7 },
+    { path: 'artisan-abt8', component: ArtisanAbt8 },
+    { path: 'artisan-abt9', component: ArtisanAbt9 },
+    { path: 'artisan-abt10', component: ArtisanAbt10 },
+    { path: 'artisan-abt11', component: ArtisanAbt11 },
+    { path: 'artisan-abt12', component: ArtisanAbt12 },
+    { path: 'artisan-abt13', component: ArtisanAbt13 },
+    { path: 'artisan-abt14', component: ArtisanAbt14 },
+    { path: 'artisan-abt15', component: ArtisanAbt15 },
+    { path: 'artisan-abt16', component: ArtisanAbt16 },
+    { path: 'artisan-abt17', component: ArtisanAbt17 },
+    { path: 'artisan-abt18', component: ArtisanAbt18 },
+    { path: 'artisan-abt19', component: ArtisanAbt19 },
+    { path: 'artisan-abt20', component: ArtisanAbt20 },
+    { path: 'artisan-abt21', component: ArtisanAbt21 },
+    { path: 'artisan-abt22', component: ArtisanAbt22 },
+    { path: 'artisan-abt23', component: ArtisanAbt23 },
+    { path: 'artisan-abt24', component: ArtisanAbt24 },
+    { path: '**', component: PageNotFound },
+
+];

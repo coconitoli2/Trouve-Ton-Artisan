@@ -1,0 +1,30 @@
+<header class="Header">
+    <a routerLink="home">
+        <img class="Logo" src="Logo.png" alt="Logo">
+    </a>
+    <input type="text" id="search" placeholder="Rechercher un artisan...">
+    <button onclick="rechercher()">🔍</button>
+    <nav>
+        <button class="BurgerMenu" (click)="toggleMenu()">☰</button>
+
+        <ul class="NavLinks" [class.show]="isMenuOpen">
+            <li><a routerLink="batiment" class="NavLink">Bâtiment</a></li>
+            <li><a routerLink="services" class="NavLink">Services</a></li>
+            <li><a routerLink="fabrication" class="NavLink">Fabrication</a></li>
+            <li><a routerLink="alimentation" class="NavLink">Alimentation</a></li>
+            <li><span class="NavLink" (click)="toggleModal()" style="cursor: pointer;">
+                    Contact
+                </span>
+                <div *ngIf="isModalOpen"
+                    style="position: fixed; top: 20%; left: 30%; background: #00497C; padding: 50px; z-index: 9999; border: 5px solid black;">
+                    <h1>Contacter nous!</h1>
+                    <p>Envoyez-nous un email à <a
+                            href="mailto:pelissiervladimir.cef@gmail.com">pelissiervladimir.cef@gmail.com</a></p>
+                    <p>Appelez-nous au <a href="tel:0123456789">06 64 49 02 54</a></p>
+                    <button (click)="toggleModal()">Fermer</button>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+</header>
